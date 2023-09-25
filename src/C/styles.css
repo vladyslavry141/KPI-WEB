@@ -1,0 +1,128 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-size: 0px;
+}
+
+.header {
+  position: relative;
+  height:  25%;
+  white-space: nowrap;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.header-left {
+  display: inline-block;
+  width: calc((100% - 20px) / 4);
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  text-align: end;
+  padding: 10px;
+  font-size: medium;
+}
+
+.header-right {
+  display: inline-block;
+  width:calc(3 *(100% - 20px) / 4);
+  text-align: end;
+  font-size: medium;
+}
+
+.main {
+  height: 50%;
+  white-space: nowrap;
+}
+
+.main-left {
+  display: inline-block;
+  width: 75%;
+  height: 100%;
+}
+
+.main-right {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  width: 25%;
+  height: 100%;
+  text-align: end;
+  padding: 10px;
+  background-color: lightcoral;
+  font-size: medium;
+}
+
+.main-left-top {
+  height: calc(500% / 6);
+  white-space: nowrap;
+}
+
+.main-left-top-left {
+  position: relative;
+  display: inline-block;
+  width: calc(100% / 3);
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: end;
+  background-color: lightcoral;
+  font-size: medium;
+}
+
+.main-left-top-right {
+  position: relative;
+  display: inline-block;
+  width: calc(200% / 3);;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: end;
+  background-color: white;
+  font-size: medium;
+}
+
+.main-left-bottom {
+  position: relative;
+  height: calc(100% / 6);
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: lightgreen;
+  font-size: medium;
+}
+
+.footer {
+  position: relative;
+  height: 25%;
+  white-space: nowrap;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.footer-left {
+  display: inline-block;
+  width: calc((100% - 20px) / 4);
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  text-align: start;
+  padding: 10px;
+  font-size: medium;
+}
+
+.footer-right {
+  display: inline-block;
+  width:calc(3 *(100% - 20px) / 4);
+  text-align: end;
+  font-size: medium;
+}
+
+.content-wrapper {
+  position: absolute;
+  width: calc(100% - 20px);
+  top: 50%;
+  bottom: 50%;
+}

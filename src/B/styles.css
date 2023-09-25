@@ -1,0 +1,102 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.header-left {
+  height: min-content;
+  background-color: white;
+  text-align: end;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.header-right {
+  height: min-content;
+  text-align: end;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "main-2 main-3 main-3 main-4"
+                       "main-2 main-3 main-3 main-4"
+                       "main-2 main-3 main-3 main-4"
+                       "main-2 main-3 main-3 main-4"
+                       "main-2 main-3 main-3 main-4"
+                       "main-5 main-5 main-5 main-4" ;
+}
+
+.main-2 {
+  align-items: center;
+  display: grid;
+  grid-area: main-2;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: end;
+  background-color: lightcoral;
+}
+
+.main-3 {
+  align-items: center;
+  display: grid;
+  grid-area: main-3;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: end;
+}
+
+.main-4 {
+  align-items: center;
+  display: grid;
+  grid-area: main-4;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: end;
+  background-color: lightcoral;
+}
+
+.main-5 {
+  align-items: center;
+  display: grid;
+  grid-area: main-5;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.footer-left {
+  height: min-content;
+  background-color: white;
+  text-align: start;
+  padding: 10px;
+}
+
+.footer-right {
+  height: min-content;
+  text-align: end;
+}
