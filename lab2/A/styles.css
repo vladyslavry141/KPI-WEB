@@ -40,7 +40,7 @@ body {
 
 .main-left-top {
   display: flex;
-  flex: 5;
+  flex: 1;
 }
 
 .main-left-top-left {
@@ -68,7 +68,7 @@ body {
 .main-left-bottom {
   display: flex;
   align-items: center;
-  flex: 1;
+  flex: initial;
   padding: 10px;
   box-sizing: border-box;
   background-color: lightgreen;
