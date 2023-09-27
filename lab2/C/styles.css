@@ -6,7 +6,7 @@ body {
 
 .header {
   position: relative;
-  height:  25%;
+  height:  62px;
   white-space: nowrap;
   padding: 10px;
   box-sizing: border-box;
@@ -32,7 +32,7 @@ body {
 }
 
 .main {
-  height: 50%;
+  height: calc(100% - 62px * 2);
   white-space: nowrap;
 }
 
@@ -95,7 +95,7 @@ body {
 
 .footer {
   position: relative;
-  height: 25%;
+  height: 62px;
   white-space: nowrap;
   padding: 10px;
   box-sizing: border-box;
